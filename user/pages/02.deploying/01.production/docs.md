@@ -187,10 +187,3 @@ On some systems, deployment without using privileged mode is supported. These sy
 
 See the section on [Docker deployment](/deploying/docker) for sample compose files.
 
-### Multi-site, Multi-Cluster Architecture
-For enterprises with multiple locations and where a separate NeuVector cluster can be deployed for each location, the following is a proposed reference architecture. Each cluster has its own set of controllers and is separately managed.
-
-![Multi-Site](multisite.png)
-
-See a more detailed description in this file >
-[NeuVector Multi-Site Architecture](multisite.pdf)
